@@ -1,4 +1,4 @@
-export default function TechnologyCard({ tech, isAdded, onAddToStack }: any) {
+ function TechnologyCard({ tech, isAdded, onAddToStack }: any) {
   return (
     <div className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="flex items-start justify-between">
@@ -36,3 +36,5 @@ export default function TechnologyCard({ tech, isAdded, onAddToStack }: any) {
     </div>
   );
 }
+
+export default TechnologyCard;

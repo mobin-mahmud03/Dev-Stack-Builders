@@ -1,4 +1,4 @@
-export default function YourStack({ stack, onRemove, onRemoveAll }: any) {
+ function YourStack({ stack, onRemove, onRemoveAll }: any) {
   const count = stack.length;
 
   return (
@@ -65,3 +65,6 @@ export default function YourStack({ stack, onRemove, onRemoveAll }: any) {
     </aside>
   );
 }
+
+
+export default YourStack;
